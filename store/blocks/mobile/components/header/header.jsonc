@@ -1,0 +1,11 @@
+{
+    "sticky-layout#mobile":{
+        "title": "mobile sticky layout header",
+        "props": {
+            "blockClass": "sticky-header-mobile"
+        },
+        "children": [
+           
+        ]
+    }
+}
