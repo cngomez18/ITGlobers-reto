@@ -1,0 +1,8 @@
+{
+    "responsive-layout.mobile#home" : {
+        "title" : "Home section  Mobile",
+        "children":[
+
+        ]
+    }
+}

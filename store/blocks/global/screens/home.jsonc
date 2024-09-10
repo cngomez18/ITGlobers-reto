@@ -1,0 +1,9 @@
+{
+    "store.home": {
+      "title": "home global screen",
+      "blocks": [
+        "responsive-layout.mobile#home",
+        "responsive-layout.desktop#home"
+      ]
+    }
+  }
