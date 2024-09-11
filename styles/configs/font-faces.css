@@ -3,15 +3,15 @@
 @font-face {
     font-family: 'Monserrat';
     font-style : bold;
-    src        : url(/assets/fonts/Monserrat/Montserrat-VariableFont_wght.ttf),
+    src        : url(/assets/fonts/Monserrat/static/Montserrat-Bold.ttf),
         format('ttf'),
-        local('Monserrat')
+        local('Monserrat-Bold')
 }
 
 @font-face {
     font-family: 'Monserrat';
     font-style : medium;
-    src        : url(/assets/fonts/Monserrat/Montserrat-VariableFont_wght.ttf),
+    src        : url(/assets/fonts/Monserrat/static/Montserrat-Medium.ttf),
         format('ttf'),
         local('Monserrat')
 }
@@ -19,7 +19,23 @@
 @font-face {
     font-family: 'Monserrat';
     font-style : light;
-    src        : url(/assets/fonts/Monserrat/Montserrat-VariableFont_wght.ttf),
+    src        : url(/assets/fonts/Monserrat/static/Montserrat-Light.ttf),
         format('ttf'),
-        local('Monserrat')
+        local('Monserrat-Light')
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style : bold;
+    src        : url(/assets/fonts/Lexend/Lexend-VariableFont_wght.ttf),
+        format('ttf'),
+        local('Lexend-Bold');
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style : medium;
+    src        : url(/assets/fonts/Lexend/Lexend-VariableFont_wght.ttf),
+        format('ttf'),
+        local('Lexend-Medium');
 }
