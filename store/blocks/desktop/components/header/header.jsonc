@@ -5,7 +5,8 @@
             "blockClass": "sticky-header-desktop"
         },
         "children": [
-            "flex-layout.row#desktop__header"
+            "flex-layout.row#desktop__header",
+            "notification.bar"
         ]
     },
     "flex-layout.row#desktop__header": {
@@ -79,10 +80,5 @@
             "link#desktop__header-link--accesories",
             "link#desktop__header-link--support"
         ]
-    },
-    "search-bar":{
-        "props":{
-            "maxWidth": "50px"
-        }
     }
 }

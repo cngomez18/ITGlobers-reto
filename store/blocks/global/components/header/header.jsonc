@@ -16,5 +16,15 @@
     },
     "drawer": {
         "children": []
+    },
+    "search-bar":{
+        "props":{
+            "maxWidth": "50px"
+        }
+    },
+    "notification.bar":{
+        "props":{
+            "content": "Conoce el nuevo álbum de The Weekend con 50% a 5.00 USD antes del lanzamiento"
+        }
     }
 }
