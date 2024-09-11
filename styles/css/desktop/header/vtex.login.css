@@ -1,0 +1,21 @@
+.label {
+    font-family   : Lexend;
+    font-size     : 12px;
+    font-weight   : 300;
+    line-height   : 15px;
+    text-align    : left;
+    color         : #1D2734;
+    text-transform: none;
+}
+
+.container :global(.vtex-button__label)::before {
+    content         : "";
+    display         : inline-block;
+    background-image: url(assets/svg/login-user.svg);
+    width           : 20px;
+    height          : 20px;
+}
+
+/*
+vtex-button__label flex items-center justify-center h-100 ph6 
+vtex-login-2-x-label t-action--small pl4 gray dn db-l

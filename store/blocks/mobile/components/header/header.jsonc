@@ -5,7 +5,40 @@
             "blockClass": "sticky-header-mobile"
         },
         "children": [
-           
+            "flex-layout.row#mobile__header",
+            "notification.bar"
+        ]
+    },
+    "flex-layout.row#mobile__header": {
+        "title": " mobile row header flex-layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "colJustify": "around",
+            "blockClass": [
+                "mobile__header--row"
+            ]
+        },
+        "children":[
+            "flex-layout.col#global__logo",
+            "flex-layout.col#spacer",
+            "search-bar",
+            "minicart.v2",
+            "flex-layout.col#mobile__drawer"
+        ]
+    },
+    "flex-layout.col#mobile__drawer": {
+        "title": " mobile col drawer flex-layout",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "drawer"
         ]
     }
 }

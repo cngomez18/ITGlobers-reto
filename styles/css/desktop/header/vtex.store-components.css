@@ -1,0 +1,83 @@
+.searchBarContainer :global(.vtex-store-components-3-x-suffixWrapper) {
+    position: relative;
+    right   : 10px;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border: none;
+}
+
+.searchIcon {
+    overflow: visible !important;
+}
+
+.notificationBarContainer {
+    max-height: 56px;
+}
+
+.notificationContent {
+    font-family: Lexend;
+    font-size  : 9.33px;
+    font-weight: 300;
+    line-height: 11.67px;
+    text-align : left;
+    color      : #b3b3b3;
+    position   : relative;
+    bottom     : 20px;
+}
+
+.notificationContent ::before {
+    content         : "";
+    background-image: url(assets/img/album.png);
+    width           : 48px;
+    height          : 48px;
+    position        : relative;
+    top             : 20px;
+    margin-right    : 15px;
+    display         : inline-flex;
+}
+
+.notificationContent ::after {
+    content        : "Comprar álbum";
+    font-family    : Lexend;
+    font-size      : 9.33px;
+    font-weight    : 300;
+    line-height    : 12.44px;
+    text-align     : center;
+    color          : #FF8324;
+    display        : inline-flex;
+    margin-left    : 5px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .searchIcon{
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .notificationContent {
+        max-width: 90%;
+        position: static;
+    }
+
+    .notificationContent ::before {
+        display: none;
+    }
+}
+
+/*
+vtex-store-components-3-x-notificationContent  
+width: 20px;
+height: 20px;
+position: absolute;
+class=" vtex-store-components-3-x-searchIcon"
+
+class="vtex-store-components-3-x-suffixWrapper flex h-100"
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    display: none;
+}
+class="vtex-styleguide-9-x-input ma0 border-box vtex-styleguide-9-x-hideDecorators vtex-styleguide-9-x-noAppearance br2  br-0 br--left  w-100 bn outline-0 bg-base c-on-base b--muted-4 hover-b--muted-3 t-body pl5 "

@@ -1,0 +1,18 @@
+.link--desktop__header--links {
+    font-family    : Lexend;
+    font-size      : 12px;
+    font-weight    : 300;
+    line-height    : 15px;
+    text-align     : center;
+    color          : #1D2734;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.link--desktop__header--links :hover {
+    text-decoration: underline;
+}
+/*
+vtex-store-link-0-x-label vtex-store-link-0-x-label--desktop__navbar--links
+class="vtex-store-components-3-x-logoImage vtex-render-runtime-8-x-lazyload lazyloaded"
+*/

@@ -1,0 +1,18 @@
+.cartIcon {
+    width     : 17px;
+    height    : 19px;
+    overflow  : visible !important;
+    position  : relative;
+    align-self: center;
+    top       : -2px;
+}
+
+@media screen and (max-width: 768px) {
+    .cartIcon {
+        width : 13px;
+        height: 17px;
+    }
+}
+
+/*
+vtex-minicart-2-x-minicartIconContainer gray relative
