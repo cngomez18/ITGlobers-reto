@@ -1,4 +1,14 @@
 {
+    "flex-layout.col#global__logo": {
+        "title": " global col logo flex-layout",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "logo"
+        ]
+    },
     "logo": {
         "title": "logo global ",
         "props": {

@@ -11,6 +11,10 @@
     overflow: visible !important;
 }
 
+.notificationBarContainer {
+    max-height: 56px;
+}
+
 .notificationContent {
     font-family: Lexend;
     font-size  : 9.33px;
@@ -29,7 +33,7 @@
     height          : 48px;
     position        : relative;
     top             : 20px;
-    margin-right    : 20px;
+    margin-right    : 15px;
     display         : inline-flex;
 }
 
@@ -42,8 +46,26 @@
     text-align     : center;
     color          : #FF8324;
     display        : inline-flex;
-    margin-left    : 20px;
+    margin-left    : 5px;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .searchIcon{
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .notificationContent {
+        max-width: 90%;
+        position: static;
+    }
+
+    .notificationContent ::before {
+        display: none;
+    }
 }
 
 /*

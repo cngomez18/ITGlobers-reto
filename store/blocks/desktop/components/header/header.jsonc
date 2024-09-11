@@ -23,21 +23,11 @@
             ]
         },
         "children": [
-            "flex-layout.col#desktop__logo",
+            "flex-layout.col#global__logo",
             "flex-layout.col#desktop__header--links",
             "search-bar",
             "minicart.v2",
             "login"
-        ]
-    },
-    "flex-layout.col#desktop__logo": {
-        "title": " desktop col logo flex-layout",
-        "props": {
-            "verticalAlign": "middle",
-            "horizontalAlign": "center"
-        },
-        "children": [
-            "logo"
         ]
     },
     "flex-layout.col#desktop__header--links": {
