@@ -1,0 +1,8 @@
+{
+    "login": {
+        "title": "global login",
+        "props": {
+            "iconLabel": "Sign In"
+        }
+    }
+}

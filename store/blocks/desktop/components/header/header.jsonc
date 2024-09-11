@@ -79,5 +79,10 @@
             "link#desktop__header-link--accesories",
             "link#desktop__header-link--support"
         ]
+    },
+    "search-bar":{
+        "props":{
+            "maxWidth": "50px"
+        }
     }
 }

@@ -1,0 +1,25 @@
+.searchBarContainer :global(.vtex-store-components-3-x-suffixWrapper) {
+    position: relative;
+    right   : 10px;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border: none;
+}
+
+.searchIcon {
+    overflow: visible !important;
+}
+
+/*  
+width: 20px;
+height: 20px;
+position: absolute;
+class=" vtex-store-components-3-x-searchIcon"
+
+class="vtex-store-components-3-x-suffixWrapper flex h-100"
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    display: none;
+}
+class="vtex-styleguide-9-x-input ma0 border-box vtex-styleguide-9-x-hideDecorators vtex-styleguide-9-x-noAppearance br2  br-0 br--left  w-100 bn outline-0 bg-base c-on-base b--muted-4 hover-b--muted-3 t-body pl5 "
