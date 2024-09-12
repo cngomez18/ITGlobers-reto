@@ -1,0 +1,38 @@
+.sliderLayoutContainer--bullets__slider{
+    max-width: 1260px;
+}
+.bullet__item {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-between;
+    flex-direction : column;
+    align-items    : center;
+    text-align     : center;
+    margin         : 10px;
+    height         : 200px;
+}
+
+.bullet__item--title {
+    text-decoration: none;
+    margin-top     : auto;
+    font-family    : Lexend;
+    font-size      : 14px;
+    font-weight    : 500;
+    line-height    : 17.5px;
+    text-align     : center;
+    color          : #1D2734;
+}
+
+.bullet__item--image {
+    max-width : 150px;
+    max-height: 110px;
+}
+
+/*
+class="w-100 flex items-center relative vtex-slider-layout-0-x-sliderLayoutContainer vtex-slider-layout-0-x-sliderLayoutContainer--bullets__slider"
+
+vtex-slider-layout-0-x-slideChildrenContainer flex justify-center items-center w-100
+
+class="vtex-slider-layout-0-x-bullet__item--image"
+class="vtex-slider-layout-0-x-bullet__item--title"
+class="vtex-slider-layout-0-x-bullet__item--link"
