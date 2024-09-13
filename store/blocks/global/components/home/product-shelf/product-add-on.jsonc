@@ -1,0 +1,58 @@
+{
+    "stack-layout#global__shelf": {
+        "children": [
+            //"product-summary.shelf#home-slider",
+            "product-price-savings"
+        ]
+    },
+    "icon#add-to-cart": {
+        "title": "global product shelf--icon add to cart",
+        "props": {
+            "id": "hpa-add-to-cart",
+            "size": 14
+        }
+    },
+    "product-price-savings": {
+        "title": "global product shelf--product price saving",
+        "props": {
+            "markers": [
+                "highlight"
+            ],
+            "message": "{savingsPercentage} OFF",
+            "percentageStyle": "compact",
+            "font": "t-Lexend-400",
+            "icon": false,
+            "blockClass": [
+                "global__home__shelf--price-saving"
+            ]
+        }
+    },
+    "flex-layout.row#global__shelf--badges": {
+        "title": "global product shelf--flex row badges",
+        "props": {
+            "preserveLayoutOnMobile": true
+        },
+        "children": [
+            "flex-layout.col#global__shelf--badges-1",
+            "flex-layout.col#global__shelf--badges-2"
+        ]
+    },
+    "flex-layout.col#global__shelf--badges-1": {
+        "title": "global product shelf--flex row badges--price savings",
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "product-price-savings"
+        ]
+    },
+    "flex-layout.col#global__shelf--badges-2": {
+        "title": "global product shelf--flex row badges--add to list btn(wishlist)",
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            //"add-to-list-btn"
+        ]
+    }
+}

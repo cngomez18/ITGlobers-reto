@@ -22,7 +22,8 @@
         "children": [
             "rich-text#global__home--text-tienda",
             "list-context.bullet-group",
-            "rich-text#global__home--text-product"
+            "rich-text#global__home--text-product",
+            "list-context.product-list#demo1"
         ]
     }
 }
