@@ -1,0 +1,53 @@
+{
+    "image#watch": {
+        "props": {
+            "src": "assets/img/infocards/watch.png",
+            "maxHeight": 240,
+            "maxWidth": 200
+        }
+    },
+    "image#badge": {
+        "props": {
+            "src": "assets/img/infocards/badge.png",
+            "maxHeight": 48,
+            "maxWidth": 48
+        }
+    },
+    "image#phones": {
+        "props": {
+            "src": "assets/img/infocards/phones.png",
+            "maxHeight": 230,
+            "maxWidth": 240
+        }
+    },
+    "rich-text#global__info-card--watch": {
+        "title": "global info card text Watch",
+        "props": {
+            "text": "APPLE WATCH SERIES 9",
+            "font": "t-body",
+            "blockClass": [
+                "global__info-card--watch"
+            ]
+        }
+    },
+    "rich-text#global__info-card--preorder": {
+        "title": "global info card text Pre order",
+        "props": {
+            "text": "**Pre-order now.**",
+            "font": "t-heading-4",
+            "blockClass": [
+                "global__info-card--preorder"
+            ]
+        }
+    },
+    "rich-text#global__info-card--platform": {
+        "title": "global info card text Platform",
+        "props": {
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "font": "t-heading-6",
+            "blockClass": [
+                "global__info-card--platform"
+            ]
+        }
+    }
+}

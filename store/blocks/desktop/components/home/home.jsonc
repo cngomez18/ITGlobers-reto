@@ -22,6 +22,7 @@
         "children": [
             "rich-text#global__home--text-tienda",
             "list-context.bullet-group",
+            "slider-layout#global__info-card",
             "rich-text#global__home--text-product",
             "list-context.product-list#demo1"
         ]
