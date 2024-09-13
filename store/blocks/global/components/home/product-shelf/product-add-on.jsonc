@@ -2,7 +2,8 @@
     "stack-layout#global__shelf": {
         "children": [
             //"product-summary.shelf#home-slider",
-            "product-price-savings"
+            // "product-price-savings",
+            "flex-layout.row#global__shelf--tags"
         ]
     },
     "icon#add-to-cart": {
@@ -27,32 +28,44 @@
             ]
         }
     },
-    "flex-layout.row#global__shelf--badges": {
-        "title": "global product shelf--flex row badges",
+    "image#fav": {
         "props": {
-            "preserveLayoutOnMobile": true
+            "src": "assets/img/fav.png",
+            "maxHeight": 24,
+            "maxWidth": 34
+        }
+    },
+    "flex-layout.row#global__shelf--tags": {
+        "title": "global product shelf--flex row tags",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "equal"
         },
         "children": [
-            "flex-layout.col#global__shelf--badges-1",
-            "flex-layout.col#global__shelf--badges-2"
+            //"product-price-savings",
+            //"image#fav"
+            "flex-layout.col#global__shelf--tag-price",
+            "flex-layout.col#global__shelf--tag-heart"
         ]
     },
-    "flex-layout.col#global__shelf--badges-1": {
-        "title": "global product shelf--flex row badges--price savings",
+    "flex-layout.col#global__shelf--tag-price": {
+        "title": "global product shelf--tag--price savings",
         "props": {
-            "verticalAlign": "middle"
+            "verticalAlign": "middle",
+            "horizontalAlign": "right"
         },
         "children": [
             "product-price-savings"
         ]
     },
-    "flex-layout.col#global__shelf--badges-2": {
-        "title": "global product shelf--flex row badges--add to list btn(wishlist)",
+    "flex-layout.col#global__shelf--tag-heart": {
+        "title": "global product shelf--tag heart",
         "props": {
-            "verticalAlign": "middle"
+            "verticalAlign": "middle",
+            "horizontalAlign": "right"
         },
         "children": [
-            //"add-to-list-btn"
+            "image#fav"
         ]
     }
 }

@@ -1,7 +1,7 @@
 .element :global(.vtex-button) {
     background-color: #FFFFFF;
-    width           : Fixed (164px);
-    height          : Fixed (37px);
+    width           : 164px;
+    height          : 37px;
     padding         : 7.74px;
     border-radius   : 30.97px;
     border          : 0.77px solid #1D2734
@@ -33,9 +33,6 @@
     line-clamp        : 3;
     -webkit-box-orient: vertical;
 }
-
-
-
 
 .sellingPrice {
     font-family: Monserrat;
