@@ -4,7 +4,8 @@
     height          : 37px;
     padding         : 7.74px;
     border-radius   : 30.97px;
-    border          : 0.77px solid #1D2734
+    border          : 0.77px solid #1D2734;
+    margin          : auto;
 }
 
 .container {
@@ -34,6 +35,13 @@
     -webkit-box-orient: vertical;
 }
 
+.priceContainer {
+    width  : 100px;
+    padding: 0px;
+    margin : 0px 0px 1px 20px;
+
+}
+
 .sellingPrice {
     font-family: Monserrat;
     font-size  : 19px;
@@ -53,10 +61,7 @@
 }
 
 /*
-.priceContainer {
-    width      : 29px;
-    height     : 94px;
-    margin-left: 30%;
+
 }
 width: 29px;
 height: 94px;
