@@ -1,5 +1,6 @@
 {
     "list-context.product-list#demo1": {
+        "title": "global product shelf--list context",
         "blocks": [
             "product-summary.shelf#global__home"
         ],
@@ -8,7 +9,7 @@
         ]
     },
     "slider-layout#global__home--product-shelf": {
-        "title": "slider de prodcut shelf home",
+        "title": "slider de product shelf home",
         "props": {
             "showNavigationArrows": "never",
             "showPaginationDots": "never",
@@ -25,6 +26,7 @@
         }
     },
     "product-summary.shelf#global__home": {
+        "title": "global product summary shelf",
         "children": [
             "stack-layout#global__shelf",
             "product-summary-image",

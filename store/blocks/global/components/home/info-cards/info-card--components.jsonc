@@ -1,5 +1,6 @@
 {
     "image#watch": {
+        "title": "global info card--watch img",
         "props": {
             "src": "assets/img/infocards/watch.png",
             "maxHeight": 240,
@@ -7,6 +8,7 @@
         }
     },
     "image#badge": {
+        "title": "global info card--badge img",
         "props": {
             "src": "assets/img/infocards/badge.png",
             "maxHeight": 48,
@@ -14,6 +16,7 @@
         }
     },
     "image#phones": {
+        "title": "global info card--phones img",
         "props": {
             "src": "assets/img/infocards/phones.png",
             "maxHeight": 230,
@@ -21,6 +24,7 @@
         }
     },
     "image#promo": {
+        "title": "global info card--promo img",
         "props": {
             "src": "assets/img/infocards/promo.png",
             "maxHeight": 218,
@@ -28,7 +32,7 @@
         }
     },
     "rich-text#global__info-card--watch": {
-        "title": "global info card text Watch",
+        "title": "global info card--text Watch",
         "props": {
             "text": "APPLE WATCH SERIES 9",
             "font": "t-body",
@@ -38,7 +42,7 @@
         }
     },
     "rich-text#global__info-card--preorder": {
-        "title": "global info card text Pre order",
+        "title": "global info card--text Pre order",
         "props": {
             "text": "**Pre-order now.**",
             "font": "t-heading-4",
@@ -48,7 +52,7 @@
         }
     },
     "rich-text#global__info-card--platform": {
-        "title": "global info card text Platform",
+        "title": "global info card--text Platform",
         "props": {
             "text": "Builder platform is made by, buildership platform is made by...",
             "font": "t-heading-6",
@@ -58,7 +62,7 @@
         }
     },
     "rich-text#global__info-card--valentine": {
-        "title": "global info card text VALENTINE DAY",
+        "title": "global info card text--Valentine day",
         "props": {
             "text": "VALENTINE’S DAY",
             "font": "t-heading-6",
@@ -68,7 +72,7 @@
         }
     },
     "rich-text#global__info-card--gift": {
-        "title": "global info card text GiftsCard",
+        "title": "global info card--text GiftsCard",
         "props": {
             "text": "**GiftsCard for your love.**",
             "font": "t-heading-4",

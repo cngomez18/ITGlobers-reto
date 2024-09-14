@@ -1,8 +1,7 @@
 {
     "stack-layout#global__shelf": {
+        "title": "global product shelf-- sticky layout",
         "children": [
-            //"product-summary.shelf#home-slider",
-            // "product-price-savings",
             "flex-layout.row#global__shelf--tags"
         ]
     },
@@ -29,6 +28,7 @@
         }
     },
     "image#fav": {
+        "title": "global product shelf--img fav",
         "props": {
             "src": "assets/img/fav.png",
             "maxHeight": 24,
@@ -42,8 +42,6 @@
             "colSizing": "equal"
         },
         "children": [
-            //"product-price-savings",
-            //"image#fav"
             "flex-layout.col#global__shelf--tag-price",
             "flex-layout.col#global__shelf--tag-heart"
         ]

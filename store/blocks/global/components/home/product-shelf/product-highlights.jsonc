@@ -1,5 +1,6 @@
 {
     "vtex.product-highlights@2.x:product-highlights": {
+        "title": "global product shelf--highlight",
         "props": {
             "type": "collection",
             "filter": {
@@ -14,12 +15,14 @@
         ]
     },
     "product-highlight-wrapper": {
+        "title": "global product shelf--highlight wrapper",
         "children": [
             "product-highlight-text",
             "icon#flash"
         ]
     },
     "product-highlight-text": {
+        "title": "global product shelf--highlight text",
         "props": {
             "message": "{highlightName}"
         }
