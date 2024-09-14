@@ -1,16 +1,18 @@
 {
-    "flex-layout.row#desktop__home--main":{
-        "props":{
+    "flex-layout.row#desktop__home--main": {
+        "props": {
             "marginTop": 10
         },
-        "children":[
+        "children": [
             "flex-layout.col#desktop__home--main"
-        ]   
+        ]
     },
     "flex-layout.col#desktop__home--main": {
         "title": " desktop col home",
         "props": {
-            "horizontalAlign": "center",
+            "marginLeft": 10,
+            "marginRight": 10,
+            "horizontalAlign": "left",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
@@ -22,8 +24,32 @@
         "children": [
             "rich-text#global__home--text-tienda",
             "list-context.bullet-group",
-            "slider-layout#global__info-card",
+
             "rich-text#global__home--text-product",
+            "slider-layout#global__info-card",
+
+            "rich-text#global__home--text-product",
+            "flex-layout.row#global__info-card--slider",
+            //big purple banner
+            "rich-text#global__home--text-product",
+            "flex-layout.row#global__info-card--slider",
+
+            "rich-text#global__home--text-product",
+            "slider-layout#global__info-card",
+
+            "rich-text#global__home--text-product",
+            "slider-layout#global__info-card"
+        ]
+    },
+    "flex-layout.row#global__info-card--slider": {
+        "props": {
+            "colGap": 3,
+            "blockClass": [
+                "global__info-card--slider-row"
+            ]
+        },
+        "children": [
+            "flex-layout.col#global__info-card--promo--main-col",
             "list-context.product-list#demo1"
         ]
     }
