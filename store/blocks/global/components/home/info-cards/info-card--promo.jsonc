@@ -1,0 +1,47 @@
+{
+    "flex-layout.col#global__info-card--promo--main-col": {
+        "props": {
+            "width": "25%",
+            "blockClass": [
+                "global__info-card--promo"
+            ]
+        },
+        "children": [
+            "flex-layout.row#global__info-card--promo-texts",
+            "flex-layout.row#global__info-card--promo-img"
+        ]
+    },
+    "flex-layout.row#global__info-card--promo-texts": {
+        "props": {
+            "marginTop": 4,
+            "blockClass": [
+                "global__info-card--promo-texts"
+            ]
+        },
+        "children": [
+            "flex-layout.col#global__info-card--promo-texts"
+        ]
+    },
+    "flex-layout.row#global__info-card--promo-img": {
+        "props": {
+            "blockClass": [
+                "global__info-card--promo-img"
+            ]
+        },
+        "children": [
+            "image#promo"
+        ]
+    },
+    "flex-layout.col#global__info-card--promo-texts": {
+        "props": {
+            "rowGap": 0,
+            "blockClass": [
+                "global__info-card--promo-texts"
+            ]
+        },
+        "children": [
+            "rich-text#global__info-card--valentine",
+            "rich-text#global__info-card--gift"
+        ]
+    }
+}

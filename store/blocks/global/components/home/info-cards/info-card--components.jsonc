@@ -20,6 +20,13 @@
             "maxWidth": 240
         }
     },
+    "image#promo": {
+        "props": {
+            "src": "assets/img/infocards/promo.png",
+            "maxHeight": 218,
+            "maxWidth": 300
+        }
+    },
     "rich-text#global__info-card--watch": {
         "title": "global info card text Watch",
         "props": {
@@ -45,6 +52,26 @@
         "props": {
             "text": "Builder platform is made by, buildership platform is made by...",
             "font": "t-heading-6",
+            "blockClass": [
+                "global__info-card--platform"
+            ]
+        }
+    },
+    "rich-text#global__info-card--valentine": {
+        "title": "global info card text VALENTINE DAY",
+        "props": {
+            "text": "VALENTINE’S DAY",
+            "font": "t-heading-6",
+            "blockClass": [
+                "global__info-card--platform"
+            ]
+        }
+    },
+    "rich-text#global__info-card--gift": {
+        "title": "global info card text GiftsCard",
+        "props": {
+            "text": "**GiftsCard for your love.**",
+            "font": "t-heading-4",
             "blockClass": [
                 "global__info-card--platform"
             ]
