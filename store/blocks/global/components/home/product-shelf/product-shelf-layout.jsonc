@@ -1,0 +1,53 @@
+{
+    "list-context.product-list#desktop__product-shelf": {
+        "title": "global product shelf--list context",
+        "blocks": [
+            "product-summary.shelf#global__home"
+        ],
+        "children": [
+            "slider-layout#desktop__home--product-shelf"
+        ]
+    },
+    "slider-layout#desktop__home--product-shelf": {
+        "title": "slider de product shelf home",
+        "props": {
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "centerMode": "to-the-left",
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 1
+            },
+            "inifinite": true,
+            "blockClass": [
+                "global__home__shelf--slider"
+            ]
+        }
+    },
+    "list-context.product-list#mobile__product-shelf": {
+        "title": "global product shelf--list context",
+        "blocks": [
+            "product-summary.shelf#global__home"
+        ],
+        "children": [
+            "slider-layout#mobile__home--product-shelf"
+        ]
+    },
+    "slider-layout#mobile__home--product-shelf": {
+        "title": "slider de product shelf home",
+        "props": {
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 1
+            },
+            "inifinite": true,
+            "blockClass": [
+                "global__home__shelf--slider"
+            ]
+        }
+    }
+}

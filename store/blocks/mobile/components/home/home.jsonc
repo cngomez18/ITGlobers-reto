@@ -1,14 +1,14 @@
 {
-    "flex-layout.row#desktop__home--main": {
+    "flex-layout.row#mobile__home--main": {
         "title": " desktop row home",
         "props": {
             "marginTop": 10
         },
         "children": [
-            "flex-layout.col#desktop__home--main"
+            "flex-layout.col#mobile__home--main"
         ]
     },
-    "flex-layout.col#desktop__home--main": {
+    "flex-layout.col#mobile__home--main": {
         "title": " desktop col home",
         "props": {
             "marginLeft": 10,
@@ -19,7 +19,7 @@
             "preventVerticalStretch": true,
             "fullWidth": true,
             "blockClass": [
-                "desktop__home"
+                "mobile__home"
             ]
         },
         "children": [
@@ -30,31 +30,32 @@
             "slider-layout#global__info-card--badge",
 
             "rich-text#global__home--text-product",
-            "flex-layout.row#global__info-card--slider",
+            "flex-layout.row#mobile__info-card--slider",
 
-            "flex-layout.row#desktop__banner",
+            "flex-layout.row#mobile__banner",
 
             "rich-text#global__home--text-product",
-            "flex-layout.row#global__info-card--slider",
+            "flex-layout.row#mobile__info-card--slider",
 
             "rich-text#global__home--text-product",
             "slider-layout#global__info-card--no-badge",
 
             "rich-text#global__home--text-product",
-            "slider-layout#global__info-card--no-badge-white"        
+            "slider-layout#global__info-card--no-badge-white"
         ]
     },
-    "flex-layout.row#global__info-card--slider": {
+    "flex-layout.row#mobile__info-card--slider": {
         "title": " desktop col home product slider with a promo info card",
         "props": {
-            "colGap": 3,
+            "preserveLayoutOnMobile": true,
+            "colGap": 1,
             "blockClass": [
                 "global__info-card--slider-row"
             ]
         },
         "children": [
-            "flex-layout.col#desktop__info-card--promo--main-col",
-            "list-context.product-list#desktop__product-shelf"
+            "flex-layout.col#mobile__info-card--promo--main-col",
+            "list-context.product-list#mobile__product-shelf"
         ]
     }
 }

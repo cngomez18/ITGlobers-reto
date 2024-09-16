@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    .imageElement--global__info-card--promo{
+        max-width: 220px !important;
+        max-height: 220px !important;
+        margin-bottom: 50px;
+    }
+    
+}
+
+/*
+vtex-store-components-3-x-imageElement vtex-store-components-3-x-imageElement--global__info-card--promo
