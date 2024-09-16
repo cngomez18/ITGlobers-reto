@@ -31,7 +31,9 @@
 
             "rich-text#global__home--text-product",
             "flex-layout.row#global__info-card--slider",
-            //big purple banner
+
+            "flex-layout.row#desktop__banner",
+
             "rich-text#global__home--text-product",
             "flex-layout.row#global__info-card--slider",
 
