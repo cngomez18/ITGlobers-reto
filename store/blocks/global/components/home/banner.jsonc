@@ -1,0 +1,38 @@
+{
+    "image#desktop__banner": {
+        "title": "desktop banner home",
+        "props": {
+            "src": "assets/img/desktop-banner.png",
+            "maxHeight": 280,
+            "maxWidth": 1100
+        }
+    },
+    "image#mobile__banner": {
+        "title": "mobile banner home",
+        "props": {
+            "src": "assets/img/mobile-banner.png",
+            "maxHeight": 420,
+            "maxWidth": 330
+        }
+    },
+    "flex-layout.row#desktop__banner":{
+        "props":{
+            "marginBottom": 5,
+            "marginTop": 5,
+            "horizontalAlign": "center"
+        },
+        "children":[
+            "image#desktop__banner"
+        ]
+    },
+    "flex-layout.row#mobile__banner":{
+        "props":{
+            "marginBottom": 1,
+            "marginTop": 1,
+            "horizontalAlign": "center"
+        },
+        "children":[
+            "image#mobile__banner"
+        ]
+    }
+}

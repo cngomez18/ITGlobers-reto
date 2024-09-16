@@ -1,0 +1,37 @@
+{
+    "vtex.product-highlights@2.x:product-highlights": {
+        "title": "global product shelf--highlight",
+        "props": {
+            "type": "collection",
+            "filter": {
+                "type": "show",
+                "highlightNames": [
+                    "Envío Gratis"
+                ]
+            }
+        },
+        "children": [
+            "product-highlight-wrapper"
+        ]
+    },
+    "product-highlight-wrapper": {
+        "title": "global product shelf--highlight wrapper",
+        "children": [
+            "product-highlight-text",
+            "icon#flash"
+        ]
+    },
+    "product-highlight-text": {
+        "title": "global product shelf--highlight text",
+        "props": {
+            "message": "{highlightName}"
+        }
+    },
+    "icon#flash": {
+        "title": "global product shelf--icon flash",
+        "props": {
+            "id": "bnd-flash",
+            "size": 13
+        }
+    }
+}

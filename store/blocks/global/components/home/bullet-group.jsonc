@@ -1,0 +1,99 @@
+{
+    "list-context.bullet-group": {
+        "title": "global bullet list context",
+        "props": {
+            "bullets": [
+                {
+                    "image": "assets/img/bullet/tv.png",
+                    "title": "TV",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/bullet/phone.png",
+                    "title": "Smartphone",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/bullet/watch.png",
+                    "title": "Apple Watch",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/bullet/ipad.png",
+                    "title": "Tablets",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/bullet/macbook.png",
+                    "title": "Computers",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/bullet/disk.png",
+                    "title": "Disks ITG",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/bullet/merch.png",
+                    "title": "Mersh",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/bullet/notebook.png",
+                    "title": "Books",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                //extras----------------
+                {
+                    "image": "assets/img/bullet/ipad.png",
+                    "title": "Tablets",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/bullet/disk.png",
+                    "title": "Disks ITG",
+                    "link": {
+                        "url": "/"
+                    }
+                }
+            ]
+        },
+        "children":[
+            "slider-layout#bullets__group"
+        ]
+    },
+    "slider-layout#bullets__group":{
+        "title":"slider de bullets group home",
+        "props":{
+            "showNavigationArrows": "never",
+            "showPaginationDots":"never",
+            "itemsPerPage": {
+                "desktop": 8,
+                "tablet": 3,
+                "phone": 3
+            },
+            "inifinite": false,
+            "blockClass":[
+                "bullets__slider"
+            ]
+        }
+    }
+}

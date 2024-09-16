@@ -1,0 +1,53 @@
+{
+    "flex-layout.col#global__info-card--flyer--main-col": {
+        "title": "global info card flyer--main col",
+        "props": {
+            "width": "25%",
+            "blockClass": [
+                "global__info-card"
+            ]
+        },
+        "children": [
+            "flex-layout.row#global__info-card--flyer-texts",
+            "flex-layout.row#global__info-card--flyer-img"
+        ]
+    },
+    "flex-layout.row#global__info-card--flyer-texts": {
+        "title": "global info card flyer--texts row",
+        "props": {
+            "marginTop": 4,
+            "blockClass": [
+                "global__info-card--flyer-texts"
+            ]
+        },
+        "children": [
+            "flex-layout.col#global__info-card--flyer-texts"
+        ]
+    },
+    "flex-layout.row#global__info-card--flyer-img": {
+        "title": "global info card flyer--img row",
+        "props": {
+            "horizontalAlign": "left",
+            "blockClass": [
+                "global__info-card--flyer-img"
+            ]
+        },
+        "children": [
+            "image#flyer"
+        ]
+    },
+    "flex-layout.col#global__info-card--flyer-texts": {
+        "title": "global info card flyer--texts col",
+        "props": {
+            "rowGap": 0,
+            "blockClass": [
+                "global__info-card--flyer-texts"
+            ]
+        },
+        "children": [
+            "rich-text#global__info-card--watch",
+            "rich-text#global__info-card--preorder",
+            "rich-text#global__info-card--platform"
+        ]
+    }
+}

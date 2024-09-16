@@ -1,0 +1,40 @@
+.flexCol--global__info-card {
+    background-color: white;
+    box-shadow      : 0px 2px 8px 0px #00000014;
+    width           : 324px;
+    height          : 336px;
+    border-radius   : 12px;
+}
+
+.flexCol--global__info-card--promo {
+    width           : 324px;
+    height          : 305px;
+    border-radius   : 12px;
+    background-color: white;
+    box-shadow      : 0px 2px 8px 0px #00000014;
+}
+
+.flexCol--global__info-card--phone {
+    background-color: #1D2734;
+    width           : 324px;
+    height          : 336px;
+    border-radius   : 12px;
+    box-shadow      : 0px 2px 8px 0px #00000014;
+}
+
+.flexCol--global__info-card--ipad {
+    background-color: #1D2734;
+    width           : 324px;
+    height          : 336px;
+    border-radius   : 12px;
+    box-shadow      : 0px 2px 8px 0px #00000014;
+}
+
+.flexRow--global__info-card--slider-row {
+    max-width: 1260px;
+}
+
+/*
+vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--global__info-card--slider-row
+vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--global__info-card--promo  ml0 mr0 pl0 pr0      flex flex-column h-100 w-100
+vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--global__info-card  ml0 mr0 pl0 pr0      flex flex-column h-100 w-100

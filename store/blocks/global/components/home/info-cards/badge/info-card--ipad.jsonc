@@ -1,0 +1,52 @@
+{
+    "flex-layout.col#global__info-card--ipad-main-col": {
+        "title": "global info card--ipad-main col",
+        "props": {
+            "blockClass": [
+                "global__info-card--ipad"
+            ]
+        },
+        "children": [
+            "flex-layout.row#global__info-card--ipad-texts",
+            "flex-layout.row#global__info-card--ipad-img"
+        ]
+    },
+    "flex-layout.row#global__info-card--ipad-img": {
+        "title": "global info card--ipad-img row",
+        "props": {
+            "blockClass": [
+                "global__info-card--img"
+            ]
+        },
+        "children": [
+            "image#ipad"
+        ]
+    },
+    "flex-layout.row#global__info-card--ipad-texts": {
+        "title": "global info card--texts row",
+        "props": {
+            "marginTop": 4,
+            "blockClass": [
+                "global__info-card--texts"
+            ]
+        },
+        "children": [
+            "flex-layout.col#global__info-card--ipad-texts",
+            "flex-layout.col#global__info-card--badge"
+        ]
+    },
+    "flex-layout.col#global__info-card--ipad-texts": {
+        "title": "global info card--texts col",
+        "props": {
+            "rowGap": 0,
+            "blockClass": [
+                "global__info-card--texts"
+            ]
+        },
+        "children": [
+            "rich-text#global__info-card--watch-white",
+            "rich-text#global__info-card--preorder-white",
+            "rich-text#global__info-card--platform-white"
+        ]
+    }
+}
