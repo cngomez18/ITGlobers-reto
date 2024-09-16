@@ -1,0 +1,53 @@
+{
+    "flex-layout.col#global__info-card--phone--main-col": {
+        "title": "global info card phone--main col",
+        "props": {
+            "width": "25%",
+            "blockClass": [
+                "global__info-card--phone"
+            ]
+        },
+        "children": [
+            "flex-layout.row#global__info-card--phone-texts",
+            "flex-layout.row#global__info-card--phone-img"
+        ]
+    },
+    "flex-layout.row#global__info-card--phone-texts": {
+        "title": "global info card phone--texts row",
+        "props": {
+            "marginTop": 4,
+            "blockClass": [
+                "global__info-card--phone-texts"
+            ]
+        },
+        "children": [
+            "flex-layout.col#global__info-card--phone-texts"
+        ]
+    },
+    "flex-layout.row#global__info-card--phone-img": {
+        "title": "global info card phone--img row",
+        "props": {
+            "horizontalAlign": "left",
+            "blockClass": [
+                "global__info-card--phone-img"
+            ]
+        },
+        "children": [
+            "image#phones"
+        ]
+    },
+    "flex-layout.col#global__info-card--phone-texts": {
+        "title": "global info card phone--texts col",
+        "props": {
+            "rowGap": 0,
+            "blockClass": [
+                "global__info-card--phone-texts"
+            ]
+        },
+        "children": [
+            "rich-text#global__info-card--xiaomi",
+            "rich-text#global__info-card--Valencia",
+            "rich-text#global__info-card--platform-white"
+        ]
+    }
+}
