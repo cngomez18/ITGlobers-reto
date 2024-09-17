@@ -16,7 +16,7 @@
             "centerMode": "to-the-left",
             "itemsPerPage": {
                 "desktop": 4,
-                "tablet": 3,
+                "tablet": 2,
                 "phone": 1
             },
             "inifinite": true,
@@ -41,7 +41,7 @@
             "showPaginationDots": "never",
             "itemsPerPage": {
                 "desktop": 4,
-                "tablet": 3,
+                "tablet": 2,
                 "phone": 1
             },
             "inifinite": true,
