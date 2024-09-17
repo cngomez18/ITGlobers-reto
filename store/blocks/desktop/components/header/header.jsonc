@@ -1,5 +1,5 @@
 {
-    "sticky-layout#desktop":{
+    "sticky-layout#desktop": {
         "title": " desktop sticky layout header",
         "props": {
             "blockClass": "sticky-header-desktop"

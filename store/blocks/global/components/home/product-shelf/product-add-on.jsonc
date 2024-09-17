@@ -43,7 +43,7 @@
         },
         "children": [
             "flex-layout.col#global__shelf--tag-price",
-            "flex-layout.col#global__shelf--tag-wish" 
+            "flex-layout.col#global__shelf--tag-wish"
         ]
     },
     "flex-layout.col#global__shelf--tag-price": {

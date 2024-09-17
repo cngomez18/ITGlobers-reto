@@ -1,6 +1,6 @@
 {
     "list-context.product-list#desktop__product-shelf": {
-        "title": "global product shelf--list context",
+        "title": "desktop product shelf--list context",
         "blocks": [
             "product-summary.shelf#global__home"
         ],
@@ -9,7 +9,7 @@
         ]
     },
     "slider-layout#desktop__home--product-shelf": {
-        "title": "slider de product shelf home",
+        "title": "desktop slider de product shelf home",
         "props": {
             "showNavigationArrows": "never",
             "showPaginationDots": "never",
@@ -26,7 +26,7 @@
         }
     },
     "list-context.product-list#mobile__product-shelf": {
-        "title": "global product shelf--list context",
+        "title": "mobile product shelf--list context",
         "blocks": [
             "product-summary.shelf#global__home"
         ],
@@ -35,7 +35,7 @@
         ]
     },
     "slider-layout#mobile__home--product-shelf": {
-        "title": "slider de product shelf home",
+        "title": "mobile slider de product shelf home",
         "props": {
             "showNavigationArrows": "never",
             "showPaginationDots": "never",

@@ -76,22 +76,22 @@
                 }
             ]
         },
-        "children":[
+        "children": [
             "slider-layout#bullets__group"
         ]
     },
-    "slider-layout#bullets__group":{
-        "title":"slider de bullets group home",
-        "props":{
+    "slider-layout#bullets__group": {
+        "title": "slider de bullets group home",
+        "props": {
             "showNavigationArrows": "never",
-            "showPaginationDots":"never",
+            "showPaginationDots": "never",
             "itemsPerPage": {
                 "desktop": 8,
                 "tablet": 3,
                 "phone": 3
             },
             "inifinite": false,
-            "blockClass":[
+            "blockClass": [
                 "bullets__slider"
             ]
         }

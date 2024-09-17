@@ -1,6 +1,6 @@
 {
     "flex-layout.row#mobile__home--main": {
-        "title": " desktop row home",
+        "title": " mobile row home",
         "props": {
             "marginTop": 8
         },
@@ -9,7 +9,7 @@
         ]
     },
     "flex-layout.col#mobile__home--main": {
-        "title": " desktop col home",
+        "title": " mobile col home",
         "props": {
             "marginLeft": 10,
             "marginRight": 10,
@@ -25,27 +25,21 @@
         "children": [
             "rich-text#global__home--text-tienda",
             "list-context.bullet-group",
-
             "rich-text#global__home--text-product",
             "slider-layout#global__info-card--badge",
-
             "rich-text#global__home--text-product",
             "flex-layout.row#mobile__info-card--slider",
-
             "flex-layout.row#mobile__banner",
-
             "rich-text#global__home--text-product",
             "flex-layout.row#mobile__info-card--slider",
-
             "rich-text#global__home--text-product",
             "slider-layout#global__info-card--no-badge",
-
             "rich-text#global__home--text-product",
             "slider-layout#global__info-card--no-badge-white"
         ]
     },
     "flex-layout.row#mobile__info-card--slider": {
-        "title": " desktop col home product slider with a promo info card",
+        "title": " mobile col home product slider with a promo info card",
         "props": {
             "preserveLayoutOnMobile": true,
             "colGap": 1,

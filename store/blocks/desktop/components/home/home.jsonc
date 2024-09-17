@@ -25,23 +25,17 @@
         "children": [
             "rich-text#global__home--text-tienda",
             "list-context.bullet-group",
-
             "rich-text#global__home--text-product",
             "slider-layout#global__info-card--badge",
-
             "rich-text#global__home--text-product",
             "flex-layout.row#global__info-card--slider",
-
             "flex-layout.row#desktop__banner",
-
             "rich-text#global__home--text-product",
             "flex-layout.row#global__info-card--slider",
-
             "rich-text#global__home--text-product",
             "slider-layout#global__info-card--no-badge",
-
             "rich-text#global__home--text-product",
-            "slider-layout#global__info-card--no-badge-white"        
+            "slider-layout#global__info-card--no-badge-white"
         ]
     },
     "flex-layout.row#global__info-card--slider": {

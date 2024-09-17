@@ -1,6 +1,6 @@
 {
     "slider-layout#global__info-card--badge": {
-        "title": "slider images info-card home",
+        "title": "slider images info-card badge home",
         "props": {
             "itemsPerPage": {
                 "desktop": 3,
@@ -64,7 +64,7 @@
         ]
     },
     "slider-layout#global__info-card--no-badge-white": {
-        "title": "slider images info-card home no badge",
+        "title": "slider images info-card home no badge white",
         "props": {
             "itemsPerPage": {
                 "desktop": 3,

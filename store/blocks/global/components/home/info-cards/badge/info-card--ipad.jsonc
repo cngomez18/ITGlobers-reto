@@ -23,7 +23,7 @@
         ]
     },
     "flex-layout.row#global__info-card--ipad-texts": {
-        "title": "global info card--texts row",
+        "title": "global info card--ipad-texts row",
         "props": {
             "marginTop": 4,
             "blockClass": [
@@ -36,7 +36,7 @@
         ]
     },
     "flex-layout.col#global__info-card--ipad-texts": {
-        "title": "global info card--texts col",
+        "title": "global info card--ipad-texts col",
         "props": {
             "rowGap": 0,
             "blockClass": [

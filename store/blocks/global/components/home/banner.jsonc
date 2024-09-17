@@ -1,6 +1,6 @@
 {
     "image#desktop__banner": {
-        "title": "desktop banner home",
+        "title": "desktop banner img home",
         "props": {
             "src": "assets/img/desktop-banner.png",
             "maxHeight": 280,
@@ -8,30 +8,32 @@
         }
     },
     "image#mobile__banner": {
-        "title": "mobile banner home",
+        "title": "mobile banner img home",
         "props": {
             "src": "assets/img/mobile-banner.png",
             "maxHeight": 420,
             "maxWidth": 330
         }
     },
-    "flex-layout.row#desktop__banner":{
-        "props":{
+    "flex-layout.row#desktop__banner": {
+        "title": "desktop banner row home",
+        "props": {
             "marginBottom": 5,
             "marginTop": 5,
             "horizontalAlign": "center"
         },
-        "children":[
+        "children": [
             "image#desktop__banner"
         ]
     },
-    "flex-layout.row#mobile__banner":{
-        "props":{
+    "flex-layout.row#mobile__banner": {
+        "title": "mobile banner row home",
+        "props": {
             "marginBottom": 5,
             "marginTop": 5,
             "horizontalAlign": "center"
         },
-        "children":[
+        "children": [
             "image#mobile__banner"
         ]
     }

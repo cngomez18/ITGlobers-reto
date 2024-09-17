@@ -1,5 +1,5 @@
 {
-    "sticky-layout#mobile":{
+    "sticky-layout#mobile": {
         "title": "mobile sticky layout header",
         "props": {
             "blockClass": "sticky-header-mobile"
@@ -23,7 +23,7 @@
                 "mobile__header--row"
             ]
         },
-        "children":[
+        "children": [
             "flex-layout.col#global__logo",
             "flex-layout.col#spacer",
             "search-bar",

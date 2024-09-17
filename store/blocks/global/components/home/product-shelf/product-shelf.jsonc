@@ -1,9 +1,8 @@
 {
-
     "product-summary.shelf#global__home": {
         "title": "global product summary shelf",
-        "props":{
-            "blockClass":[
+        "props": {
+            "blockClass": [
                 "global__home__shelf"
             ]
         },

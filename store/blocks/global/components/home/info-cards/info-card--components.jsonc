@@ -1,5 +1,4 @@
 {
-    
     "image#watch": {
         "title": "global info card--watch img",
         "props": {
@@ -46,7 +45,7 @@
             "src": "assets/img/infocards/promo.png",
             "maxHeight": 218,
             "maxWidth": 300,
-            "blockClass":[
+            "blockClass": [
                 "global__info-card--promo"
             ]
         }
