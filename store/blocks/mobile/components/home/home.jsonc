@@ -2,7 +2,7 @@
     "flex-layout.row#mobile__home--main": {
         "title": " desktop row home",
         "props": {
-            "marginTop": 10
+            "marginTop": 8
         },
         "children": [
             "flex-layout.col#mobile__home--main"

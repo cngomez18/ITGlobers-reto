@@ -70,7 +70,8 @@
         "title": "global product shelf--flex row badges--add to list btn(wishlist)",
         "props": {
             "verticalAlign": "middle",
-            "horizontalAlign": "middle"
+            "horizontalAlign": "middle",
+            "width": "40%"
         },
         "children": [
             "add-to-list-btn"

@@ -60,6 +60,16 @@
     color      : #1D273466;
 }
 
+@media screen and (max-width: 1150px) {
+    .element--global__home__shelf :global(.vtex-button) {
+        width: 144px;
+    }
+    .description{
+        width: 144px;
+    }
+
+}
+
 /*
 
 }

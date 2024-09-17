@@ -6,5 +6,12 @@
     
 }
 
+@media screen and (max-width: 1150px) {
+    .imageElement{
+        transform: scale(0.9);
+    }
+}
+
 /*
+vtex-store-components-3-x-imageElement
 vtex-store-components-3-x-imageElement vtex-store-components-3-x-imageElement--global__info-card--promo
