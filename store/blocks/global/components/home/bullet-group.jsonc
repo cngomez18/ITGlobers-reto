@@ -1,9 +1,4 @@
 {
-    
-}
-
-/*
-{
     "list-context.bullet-group": {
         "title": "global bullet list context",
         "props": {
@@ -101,4 +96,4 @@
             ]
         }
     }
-}*/
+}
