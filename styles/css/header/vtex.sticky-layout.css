@@ -1,0 +1,16 @@
+.container--sticky-header-desktop {
+    padding-top     : 56px;
+    align-items     : center;
+    display         : grid;
+    justify-items   : center;
+    margin          : 0 auto;
+    width           : 100%;
+    background-color: #F5F4F6;
+}
+
+.container--sticky-header-mobile{
+    padding-top     : 56px;
+    margin          : 0 auto;
+    width           : 100%;
+    background-color: #F5F4F6;
+}

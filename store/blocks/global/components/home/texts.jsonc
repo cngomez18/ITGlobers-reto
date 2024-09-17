@@ -1,0 +1,22 @@
+{
+    "rich-text#global__home--text-tienda":{
+        "title": "global home text Tienda",
+        "props": {
+            "text": "**Tienda.** La mejor manera de comprar lo que amas.",
+            "font": "t-heading-4",
+            "blockClass": [
+                
+            ]
+        }
+    },
+    "rich-text#global__home--text-product":{
+        "title": "global home text Product",
+        "props": {
+            "text": "**An amazing product.** La mejor manera de comprar lo que amas.",
+            "font": "t-heading-6",
+            "blockClass": [
+                
+            ]
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "link#desktop__header-link--store": {
+        "title": " navbar store link",
+        "props": {
+            "label": "Store",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    },
+    "link#desktop__header-link--mac": {
+        "title": " navbar mac link",
+        "props": {
+            "label": "Mac",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    },
+    "link#desktop__header-link--ipad": {
+        "title": " navbar ipad link",
+        "props": {
+            "label": "iPad",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    },
+    "link#desktop__header-link--iphone": {
+        "title": " navbar iphone link",
+        "props": {
+            "label": "iPhone",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    },
+    "link#desktop__header-link--watch": {
+        "title": " navbar watch link",
+        "props": {
+            "label": "Watch",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    },
+    "link#desktop__header-link--vision": {
+        "title": " navbar vision link",
+        "props": {
+            "label": "Vision",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    },
+    "link#desktop__header-link--airpods": {
+        "title": " navbar airpods link",
+        "props": {
+            "label": "AirPods",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    },
+    "link#desktop__header-link--tv-home": {
+        "title": " navbar tv home link",
+        "props": {
+            "label": "TV & Home",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    },
+    "link#desktop__header-link--entertainment": {
+        "title": " navbar entertainment link",
+        "props": {
+            "label": "Entertainment",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    },
+    "link#desktop__header-link--accesories": {
+        "title": " navbar accesories link",
+        "props": {
+            "label": "Accesories",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    },
+    "link#desktop__header-link--support": {
+        "title": " navbar support link",
+        "props": {
+            "label": "Support",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__header--links"
+            ]
+        }
+    }
+}

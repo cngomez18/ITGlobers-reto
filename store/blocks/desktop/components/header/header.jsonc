@@ -1,0 +1,74 @@
+{
+    "sticky-layout#desktop":{
+        "title": " desktop sticky layout header",
+        "props": {
+            "blockClass": "sticky-header-desktop"
+        },
+        "children": [
+            "flex-layout.row#desktop__header",
+            "notification.bar"
+        ]
+    },
+    "flex-layout.row#desktop__header": {
+        "title": " desktop row header flex-layout",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "colJustify": "around",
+            "blockClass": [
+                "desktop__header--row"
+            ]
+        },
+        "children": [
+            "flex-layout.col#global__logo",
+            "flex-layout.col#desktop__header--links",
+            "search-bar",
+            "minicart.v2",
+            "login"
+        ]
+    },
+    "flex-layout.col#desktop__header--links": {
+        "title": " desktop links col header ",
+        "props": {
+            "fullWidth": true,
+            "width": "grow",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": [
+                "desktop__header--col-links"
+            ]
+        },
+        "children": [
+            "flex-layout.row#desktop__header--links"
+        ]
+    },
+    "flex-layout.row#desktop__header--links": {
+        "title": " desktop links row header ",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "fullWidth": true,
+            "colSizing": "auto",
+            "colGap": 5,
+            "blockClass": [
+                "desktop__navbar"
+            ]
+        },
+        "children": [
+            "link#desktop__header-link--store",
+            "link#desktop__header-link--mac",
+            "link#desktop__header-link--ipad",
+            "link#desktop__header-link--iphone",
+            "link#desktop__header-link--watch",
+            "link#desktop__header-link--vision",
+            "link#desktop__header-link--airpods",
+            "link#desktop__header-link--tv-home",
+            "link#desktop__header-link--entertainment",
+            "link#desktop__header-link--accesories",
+            "link#desktop__header-link--support"
+        ]
+    }
+}

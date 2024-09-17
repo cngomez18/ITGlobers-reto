@@ -1,0 +1,80 @@
+{
+    "stack-layout#global__shelf": {
+        "title": "global product shelf-- sticky layout",
+        "children": [
+            "flex-layout.row#global__shelf--tags"
+        ]
+    },
+    "icon#add-to-cart": {
+        "title": "global product shelf--icon add to cart",
+        "props": {
+            "id": "hpa-add-to-cart",
+            "size": 14
+        }
+    },
+    "product-price-savings": {
+        "title": "global product shelf--product price saving",
+        "props": {
+            "markers": [
+                "highlight"
+            ],
+            "message": "{savingsPercentage} OFF",
+            "percentageStyle": "compact",
+            "font": "t-Lexend-400",
+            "icon": false,
+            "blockClass": [
+                "global__home__shelf--price-saving"
+            ]
+        }
+    },
+    "image#fav": {
+        "title": "global product shelf--img fav",
+        "props": {
+            "src": "assets/img/fav.png",
+            "maxHeight": 24,
+            "maxWidth": 34
+        }
+    },
+    "flex-layout.row#global__shelf--tags": {
+        "title": "global product shelf--flex row tags",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "equal"
+        },
+        "children": [
+            "flex-layout.col#global__shelf--tag-price",
+            "flex-layout.col#global__shelf--tag-wish" 
+        ]
+    },
+    "flex-layout.col#global__shelf--tag-price": {
+        "title": "global product shelf--tag--price savings",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "right"
+        },
+        "children": [
+            "product-price-savings"
+        ]
+    },
+    "flex-layout.col#global__shelf--tag-heart": {
+        "title": "global product shelf--tag heart",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "right"
+        },
+        "children": [
+            "image#fav"
+        ]
+    },
+    "flex-layout.col#global__shelf--tag-wish": {
+        "title": "global product shelf--flex row badges--add to list btn(wishlist)",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "middle",
+            "width": "40%"
+        },
+        "children": [
+            "add-to-list-btn"
+        ]
+    }
+}

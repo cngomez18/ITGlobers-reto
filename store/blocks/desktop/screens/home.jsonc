@@ -1,0 +1,8 @@
+{
+    "responsive-layout.desktop#home": {
+        "title": "Home section Desktop screen",
+        "children": [
+            "flex-layout.row#desktop__home--main"
+        ]
+    }
+}

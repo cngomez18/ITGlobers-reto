@@ -1,0 +1,96 @@
+{
+    "slider-layout#global__info-card--badge": {
+        "title": "slider images info-card home",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "centerMode": {
+                "desktop": "to-the-left",
+                "mobile": "disabled"
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "centerModeSlidesGap": 20,
+            "fullWidth": false,
+            "blockClass": [
+                "global__info-card"
+            ]
+        },
+        "children": [
+            "flex-layout.col#global__info-card--main-col",
+            "flex-layout.col#global__info-card--ipad-main-col",
+            "flex-layout.col#global__info-card--main-col",
+            "flex-layout.col#global__info-card--ipad-main-col",
+            "flex-layout.col#global__info-card--main-col",
+            "flex-layout.col#global__info-card--ipad-main-col",
+            "flex-layout.col#global__info-card--main-col",
+            "flex-layout.col#global__info-card--ipad-main-col",
+            "flex-layout.col#global__info-card--main-col"
+        ]
+    },
+    "slider-layout#global__info-card--no-badge": {
+        "title": "slider images info-card home no badge",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "centerMode": {
+                "desktop": "to-the-left",
+                "mobile": "disabled"
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "centerModeSlidesGap": 20,
+            "fullWidth": false,
+            "blockClass": [
+                "global__info-card"
+            ]
+        },
+        "children": [
+            "flex-layout.col#global__info-card--phone--main-col",
+            "flex-layout.col#global__info-card--flyer--main-col",
+            "flex-layout.col#global__info-card--phone--main-col",
+            "flex-layout.col#global__info-card--flyer--main-col",
+            "flex-layout.col#global__info-card--phone--main-col",
+            "flex-layout.col#global__info-card--flyer--main-col",
+            "flex-layout.col#global__info-card--phone--main-col"
+        ]
+    },
+    "slider-layout#global__info-card--no-badge-white": {
+        "title": "slider images info-card home no badge",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "centerMode": {
+                "desktop": "to-the-left",
+                "mobile": "disabled"
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "centerModeSlidesGap": 20,
+            "fullWidth": false,
+            "blockClass": [
+                "global__info-card"
+            ]
+        },
+        "children": [
+            "flex-layout.col#global__info-card--flyer--main-col",
+            "flex-layout.col#global__info-card--flyer--main-col",
+            "flex-layout.col#global__info-card--flyer--main-col",
+            "flex-layout.col#global__info-card--flyer--main-col",
+            "flex-layout.col#global__info-card--flyer--main-col",
+            "flex-layout.col#global__info-card--flyer--main-col"
+        ]
+    }
+}

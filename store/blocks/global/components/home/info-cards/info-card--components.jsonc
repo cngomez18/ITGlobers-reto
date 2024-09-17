@@ -1,0 +1,159 @@
+{
+    
+    "image#watch": {
+        "title": "global info card--watch img",
+        "props": {
+            "src": "assets/img/infocards/watch.png",
+            "maxHeight": 240,
+            "maxWidth": 200
+        }
+    },
+    "image#ipad": {
+        "title": "global info card--ipad img",
+        "props": {
+            "src": "assets/img/infocards/ipad.png",
+            "maxHeight": 200,
+            "maxWidth": 270
+        }
+    },
+    "image#flyer": {
+        "title": "global info card--flyer img",
+        "props": {
+            "src": "assets/img/infocards/flyer.png",
+            "maxHeight": 240,
+            "maxWidth": 320
+        }
+    },
+    "image#badge": {
+        "title": "global info card--badge img",
+        "props": {
+            "src": "assets/img/infocards/badge.png",
+            "maxHeight": 48,
+            "maxWidth": 48
+        }
+    },
+    "image#phones": {
+        "title": "global info card--phones img",
+        "props": {
+            "src": "assets/img/infocards/phones.png",
+            "maxHeight": 230,
+            "maxWidth": 240
+        }
+    },
+    "image#promo": {
+        "title": "global info card--promo img",
+        "props": {
+            "src": "assets/img/infocards/promo.png",
+            "maxHeight": 218,
+            "maxWidth": 300,
+            "blockClass":[
+                "global__info-card--promo"
+            ]
+        }
+    },
+    "rich-text#global__info-card--watch": {
+        "title": "global info card--text Watch",
+        "props": {
+            "text": "APPLE WATCH SERIES 9",
+            "font": "t-body",
+            "blockClass": [
+                "global__info-card--watch"
+            ]
+        }
+    },
+    "rich-text#global__info-card--preorder": {
+        "title": "global info card--text Pre order",
+        "props": {
+            "text": "**Pre-order now.**",
+            "font": "t-heading-4",
+            "blockClass": [
+                "global__info-card--preorder"
+            ]
+        }
+    },
+    "rich-text#global__info-card--platform": {
+        "title": "global info card--text Platform",
+        "props": {
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "font": "t-heading-6",
+            "blockClass": [
+                "global__info-card--platform"
+            ]
+        }
+    },
+    "rich-text#global__info-card--valentine": {
+        "title": "global info card text--Valentine day",
+        "props": {
+            "text": "VALENTINE’S DAY",
+            "font": "t-heading-6",
+            "blockClass": [
+                "global__info-card--platform"
+            ]
+        }
+    },
+    "rich-text#global__info-card--gift": {
+        "title": "global info card--text GiftsCard",
+        "props": {
+            "text": "**GiftsCard for your love.**",
+            "font": "t-heading-4",
+            "blockClass": [
+                "global__info-card--platform"
+            ]
+        }
+    },
+    "rich-text#global__info-card--xiaomi": {
+        "title": "global info card--text Xiaomi",
+        "props": {
+            "text": "XIAOMI REDMI NOTE PRO 10",
+            "font": "t-body",
+            "blockClass": [
+                "global__info-card--watch",
+                "global__info-card--white-text"
+            ]
+        }
+    },
+    "rich-text#global__info-card--Valencia": {
+        "title": "global info card--text Valencia",
+        "props": {
+            "text": "**Valencia Store.**",
+            "font": "t-heading-4",
+            "blockClass": [
+                "global__info-card--preorder",
+                "global__info-card--white-text"
+            ]
+        }
+    },
+    "rich-text#global__info-card--platform-white": {
+        "title": "global info card--text Platform white text",
+        "props": {
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "font": "t-heading-6",
+            "blockClass": [
+                "global__info-card--platform",
+                "global__info-card--white-text"
+            ]
+        }
+    },
+    "rich-text#global__info-card--watch-white": {
+        "title": "global info card--text Watch white text",
+        "props": {
+            "text": "APPLE WATCH SERIES 9",
+            "font": "t-body",
+            "blockClass": [
+                "global__info-card--watch",
+                "global__info-card--white-text"
+            ]
+        }
+    },
+    "rich-text#global__info-card--preorder-white": {
+        "title": "global info card--text Pre order white text",
+        "props": {
+            "text": "**Pre-order now.**",
+            "font": "t-heading-4",
+            "blockClass": [
+                "global__info-card--preorder",
+                "global__info-card--white-text"
+            ]
+        }
+    }
+}

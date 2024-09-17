@@ -1,0 +1,61 @@
+{
+    "flex-layout.row#mobile__home--main": {
+        "title": " desktop row home",
+        "props": {
+            "marginTop": 8
+        },
+        "children": [
+            "flex-layout.col#mobile__home--main"
+        ]
+    },
+    "flex-layout.col#mobile__home--main": {
+        "title": " desktop col home",
+        "props": {
+            "marginLeft": 10,
+            "marginRight": 10,
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": [
+                "mobile__home"
+            ]
+        },
+        "children": [
+            "rich-text#global__home--text-tienda",
+            "list-context.bullet-group",
+
+            "rich-text#global__home--text-product",
+            "slider-layout#global__info-card--badge",
+
+            "rich-text#global__home--text-product",
+            "flex-layout.row#mobile__info-card--slider",
+
+            "flex-layout.row#mobile__banner",
+
+            "rich-text#global__home--text-product",
+            "flex-layout.row#mobile__info-card--slider",
+
+            "rich-text#global__home--text-product",
+            "slider-layout#global__info-card--no-badge",
+
+            "rich-text#global__home--text-product",
+            "slider-layout#global__info-card--no-badge-white"
+        ]
+    },
+    "flex-layout.row#mobile__info-card--slider": {
+        "title": " desktop col home product slider with a promo info card",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colGap": 1,
+            "blockClass": [
+                "global__info-card--slider-row"
+            ]
+        },
+        "children": [
+            "flex-layout.col#mobile__info-card--promo--main-col",
+            "list-context.product-list#mobile__product-shelf"
+        ]
+    }
+}

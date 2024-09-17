@@ -1,0 +1,54 @@
+.paragraph--global__info-card--watch {
+    font-family: Lexend;
+    font-size  : 10px;
+    font-weight: 300;
+    line-height: 14.52px;
+    text-align : left;
+}
+
+.paragraph--global__info-card--preorder {
+    font-family: Lexend;
+    font-size  : 16px;
+    font-weight: 600;
+    line-height: 24.88px;
+    text-align : left;
+}
+
+.paragraph--global__info-card--platform {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 14.52px;
+    text-align : left;
+}
+
+.wrapper--global__info-card--preorder {
+    width : 248px;
+    height: 25px;
+    margin: 0px 0px 10px 8px;
+}
+
+.wrapper--global__info-card--watch {
+    width  : 248px;
+    height : 15px;
+    padding: 0px 8px 0px 8px;
+    gap    : 10px;
+}
+
+.wrapper--global__info-card--platform {
+    width  : 248px;
+    height : 30px;
+    padding: 0px 0px 0px 8px;
+}
+
+.paragraph--global__info-card--white-text {
+    color: white;
+}
+
+/*
+
+
+vtex-rich-text-0-x-wrapper vtex-rich-text-0-x-wrapper--global__info-card--platform
+class="lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--global__info-card--platform"
+class="b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--global__info-card--preorder"
+lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--global__info-card--watch

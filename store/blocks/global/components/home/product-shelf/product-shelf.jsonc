@@ -1,0 +1,46 @@
+{
+
+    "product-summary.shelf#global__home": {
+        "title": "global product summary shelf",
+        "props":{
+            "blockClass":[
+                "global__home__shelf"
+            ]
+        },
+        "children": [
+            "stack-layout#global__shelf",
+            "product-summary-image",
+            "product-summary-description",
+            "product-summary-space",
+            "product-summary-price",
+            //"vtex.product-highlights@2.x:product-highlights",
+            "add-to-cart-button"
+        ]
+    },
+    "add-to-cart-button": {
+        "title": "global product shelf--add to cart btn",
+        "props": {
+            "isOneClickBuy": false,
+            "text": "Comprar",
+            "blockClass": [
+                "global__home__shelf--buyButton"
+            ]
+        }
+    },
+    "product-summary-image": {
+        "title": "global product shelf--product img",
+        "props": {
+            "showBadge": false,
+            "width": "110px",
+            "height": "110px"
+        }
+    },
+    "product-summary-price": {
+        "title": "global product shelf--product price",
+        "props": {
+            "showInstallments": false,
+            "showListPrice": true,
+            "showLabels": false
+        }
+    }
+}

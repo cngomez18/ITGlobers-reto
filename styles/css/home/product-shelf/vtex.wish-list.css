@@ -1,0 +1,29 @@
+.wishlistIconContainer :global(.vtex-button) {
+    width           : 40px;
+    border-radius   : 15px;
+    border          : none;
+    background-color: #1D27341A;
+    padding         : 2px 10px 2px 12px;
+    display         : flex;
+    align-items     : center;
+}
+
+.wishlistIconContainer {
+    display        : flex;
+    flex-direction : row;
+    justify-content: flex-end;
+    align-items    : center;
+}
+
+.wishlistIconContainer :global(.vtex-button__label) {
+    padding      : 0px;
+    padding-right: 2px;
+}
+
+.iconSize {
+    display      : inline-block;
+    width        : 15.5px;
+    height       : 15.5px;
+    color        : #1D2734;
+    outline-color: #1D2734;
+}

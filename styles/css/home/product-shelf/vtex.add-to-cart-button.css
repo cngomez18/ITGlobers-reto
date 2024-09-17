@@ -1,0 +1,19 @@
+.buttonText {
+    color      : #1d271d;
+    font-family: Monserrat;
+    font-size  : 12.39px;
+    font-weight: 500;
+    line-height: 15.1px;
+    text-align : center;
+    text-transform: none;
+}
+
+.buttonText--global__home__shelf--buyButton::before {
+    content       : url('assets/svg/add-to-cart.svg');
+    display       : inline-block;
+    padding-right : 3px;
+    vertical-align: middle;
+    font-weight   : 900;
+    height        : 20px;
+    width         : 20px;
+}

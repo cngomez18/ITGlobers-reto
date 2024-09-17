@@ -1,0 +1,44 @@
+{
+    "flex-layout.col#global__logo": {
+        "title": " global col logo flex-layout",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "logo"
+        ]
+    },
+    "logo": {
+        "title": "logo global ",
+        "props": {
+            "title": "Logo ",
+            "href": "/",
+            "url": "assets/img/logo.png",
+            "width": "32px",
+            "height": "16px"
+        }
+    },
+    "flex-layout.col#spacer": {
+        "title": "global col spacer",
+        "props": {
+            "width": "grow"
+        }
+    },
+    "drawer": {
+        "title": "global drawer",
+        "children": []
+    },
+    "search-bar":{
+        "title": "global search bar",
+        "props":{
+            "maxWidth": "50px"
+        }
+    },
+    "notification.bar":{
+        "title": "global notification bar",
+        "props":{
+            "content": "Conoce el nuevo álbum de The Weekend con 50% a 5.00 USD antes del lanzamiento"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.savings--global__home__shelf--price-saving {
+    display         : inline-block;
+    background-color: #1D2734;
+    width           : 75px;
+    height          : 25px;
+    border-radius   : 12px;
+    font-family     : Monserrat;
+    font-size       : 12px;
+    font-weight     : 500;
+    line-height     : 15px;
+    text-align      : center;
+    color           : white;
+    align-content   : center;
+}
