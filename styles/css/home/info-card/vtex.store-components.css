@@ -1,17 +1,13 @@
 @media screen and (max-width: 600px) {
-    .imageElement--global__info-card--promo{
-        transform: scale(0.75);
+    .imageElement--global__info-card--promo {
+        transform    : scale(0.75);
         margin-bottom: 50px;
     }
-    
+
 }
 
 @media screen and (max-width: 1150px) {
-    .imageElement{
+    .imageElement {
         transform: scale(0.9);
     }
 }
-
-/*
-vtex-store-components-3-x-imageElement
-vtex-store-components-3-x-imageElement vtex-store-components-3-x-imageElement--global__info-card--promo

@@ -39,7 +39,6 @@
     width  : 100px;
     padding: 0px;
     margin : 0px 0px 1px 20px;
-
 }
 
 .sellingPrice {
@@ -64,16 +63,9 @@
     .element--global__home__shelf :global(.vtex-button) {
         width: 144px;
     }
-    .description{
+
+    .description {
         width: 144px;
     }
 
 }
-
-/*
-
-}
-width: 29px;
-height: 94px;
-.vtex-product-summary-2-x-priceContainer
-vtex-store-components-3-x-sellingPrice vtex-store-components-3-x-sellingPriceValue vtex-product-summary-2-x-sellingPrice dib ph2 t-body t-heading-5-ns vtex-product-summary-2-x-price_sellingPrice

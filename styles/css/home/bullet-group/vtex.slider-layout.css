@@ -1,6 +1,7 @@
-.sliderLayoutContainer--bullets__slider{
+.sliderLayoutContainer--bullets__slider {
     max-width: 1260px;
 }
+
 .bullet__item {
     display        : flex;
     flex-wrap      : wrap;
@@ -27,12 +28,3 @@
     max-width : 150px;
     max-height: 110px;
 }
-
-/*
-class="w-100 flex items-center relative vtex-slider-layout-0-x-sliderLayoutContainer vtex-slider-layout-0-x-sliderLayoutContainer--bullets__slider"
-
-vtex-slider-layout-0-x-slideChildrenContainer flex justify-center items-center w-100
-
-class="vtex-slider-layout-0-x-bullet__item--image"
-class="vtex-slider-layout-0-x-bullet__item--title"
-class="vtex-slider-layout-0-x-bullet__item--link"
