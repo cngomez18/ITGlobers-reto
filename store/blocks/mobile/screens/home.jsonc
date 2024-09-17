@@ -2,7 +2,7 @@
     "responsive-layout.mobile#home" : {
         "title" : "Home section  Mobile",
         "children":[
-
+            "flex-layout.row#mobile__home--main"
         ]
     }
 }

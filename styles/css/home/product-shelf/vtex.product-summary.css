@@ -1,4 +1,4 @@
-.element :global(.vtex-button) {
+.element--global__home__shelf :global(.vtex-button) {
     background-color: #FFFFFF;
     width           : 164px;
     height          : 37px;
@@ -58,6 +58,16 @@
     line-height: 13px;
     text-align : left;
     color      : #1D273466;
+}
+
+@media screen and (max-width: 1150px) {
+    .element--global__home__shelf :global(.vtex-button) {
+        width: 144px;
+    }
+    .description{
+        width: 144px;
+    }
+
 }
 
 /*

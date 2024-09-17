@@ -27,8 +27,8 @@
     },
     "flex-layout.row#mobile__banner":{
         "props":{
-            "marginBottom": 1,
-            "marginTop": 1,
+            "marginBottom": 5,
+            "marginTop": 5,
             "horizontalAlign": "center"
         },
         "children":[

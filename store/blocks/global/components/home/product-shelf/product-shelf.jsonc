@@ -1,32 +1,12 @@
 {
-    "list-context.product-list#demo1": {
-        "title": "global product shelf--list context",
-        "blocks": [
-            "product-summary.shelf#global__home"
-        ],
-        "children": [
-            "slider-layout#global__home--product-shelf"
-        ]
-    },
-    "slider-layout#global__home--product-shelf": {
-        "title": "slider de product shelf home",
-        "props": {
-            "showNavigationArrows": "never",
-            "showPaginationDots": "never",
-            "centerMode": "to-the-left",
-            "itemsPerPage": {
-                "desktop": 4,
-                "tablet": 3,
-                "phone": 1
-            },
-            "inifinite": true,
-            "blockClass": [
-                "global__home__shelf--slider"
-            ]
-        }
-    },
+
     "product-summary.shelf#global__home": {
         "title": "global product summary shelf",
+        "props":{
+            "blockClass":[
+                "global__home__shelf"
+            ]
+        },
         "children": [
             "stack-layout#global__shelf",
             "product-summary-image",

@@ -45,7 +45,10 @@
         "props": {
             "src": "assets/img/infocards/promo.png",
             "maxHeight": 218,
-            "maxWidth": 300
+            "maxWidth": 300,
+            "blockClass":[
+                "global__info-card--promo"
+            ]
         }
     },
     "rich-text#global__info-card--watch": {

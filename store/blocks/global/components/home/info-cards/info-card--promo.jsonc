@@ -1,8 +1,21 @@
 {
-    "flex-layout.col#global__info-card--promo--main-col": {
+    "flex-layout.col#desktop__info-card--promo--main-col": {
         "title": "global info card promo--main col",
         "props": {
             "width": "25%",
+            "blockClass": [
+                "global__info-card--promo"
+            ]
+        },
+        "children": [
+            "flex-layout.row#global__info-card--promo-texts",
+            "flex-layout.row#global__info-card--promo-img"
+        ]
+    },
+    "flex-layout.col#mobile__info-card--promo--main-col": {
+        "title": "global info card promo--main col",
+        "props": {
+            "width": "50%",
             "blockClass": [
                 "global__info-card--promo"
             ]

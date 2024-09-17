@@ -1,5 +1,7 @@
-.sliderLayoutContainer--global__home__shelf--slider{
-    max-width: 1260px;
+.sliderLayoutContainer--global__info-card {
+    max-width    : 1260px;
+    padding-left : 10px !important;
+    padding-right: 10px !important;
 }
 
 /*
