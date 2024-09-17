@@ -24,7 +24,7 @@
         },
         "children": [
             "rich-text#global__home--text-tienda",
-            "list-context.bullet-group",
+            //"list-context.bullet-group",
 
             "rich-text#global__home--text-product",
             "slider-layout#global__info-card--badge",

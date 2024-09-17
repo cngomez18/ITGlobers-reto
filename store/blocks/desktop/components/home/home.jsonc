@@ -2,7 +2,7 @@
     "flex-layout.row#desktop__home--main": {
         "title": " desktop row home",
         "props": {
-            "marginTop": 10
+            "marginTop": 9
         },
         "children": [
             "flex-layout.col#desktop__home--main"
@@ -24,7 +24,7 @@
         },
         "children": [
             "rich-text#global__home--text-tienda",
-            "list-context.bullet-group",
+            //"list-context.bullet-group",
 
             "rich-text#global__home--text-product",
             "slider-layout#global__info-card--badge",

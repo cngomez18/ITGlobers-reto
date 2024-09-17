@@ -2,6 +2,11 @@
 
     "product-summary.shelf#global__home": {
         "title": "global product summary shelf",
+        "props":{
+            "blockClass":[
+                "global__home__shelf"
+            ]
+        },
         "children": [
             "stack-layout#global__shelf",
             "product-summary-image",

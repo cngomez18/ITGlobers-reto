@@ -1,4 +1,4 @@
-.element :global(.vtex-button) {
+.element--global__home__shelf :global(.vtex-button) {
     background-color: #FFFFFF;
     width           : 164px;
     height          : 37px;

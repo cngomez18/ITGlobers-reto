@@ -43,7 +43,7 @@
         },
         "children": [
             "flex-layout.col#global__shelf--tag-price",
-            "flex-layout.col#global__shelf--tag-heart"
+            "flex-layout.col#global__shelf--tag-wish" 
         ]
     },
     "flex-layout.col#global__shelf--tag-price": {
@@ -64,6 +64,16 @@
         },
         "children": [
             "image#fav"
+        ]
+    },
+    "flex-layout.col#global__shelf--tag-wish": {
+        "title": "global product shelf--flex row badges--add to list btn(wishlist)",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "middle"
+        },
+        "children": [
+            "add-to-list-btn"
         ]
     }
 }
