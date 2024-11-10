@@ -27,3 +27,11 @@
     color        : #1D2734;
     outline-color: #1D2734;
 }
+
+.outline {
+    outline-color: #1D2734 !important;
+    background   : url(/assets/svg/corazon.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover;
+}
