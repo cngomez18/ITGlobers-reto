@@ -27,14 +27,6 @@
             ]
         }
     },
-    "image#fav": {
-        "title": "global product shelf--img fav",
-        "props": {
-            "src": "assets/img/fav.png",
-            "maxHeight": 24,
-            "maxWidth": 34
-        }
-    },
     "flex-layout.row#global__shelf--tags": {
         "title": "global product shelf--flex row tags",
         "props": {
@@ -54,16 +46,6 @@
         },
         "children": [
             "product-price-savings"
-        ]
-    },
-    "flex-layout.col#global__shelf--tag-heart": {
-        "title": "global product shelf--tag heart",
-        "props": {
-            "verticalAlign": "middle",
-            "horizontalAlign": "right"
-        },
-        "children": [
-            "image#fav"
         ]
     },
     "flex-layout.col#global__shelf--tag-wish": {

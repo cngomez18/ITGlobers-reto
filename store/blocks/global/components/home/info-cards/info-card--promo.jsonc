@@ -14,7 +14,6 @@
     "flex-layout.col#mobile__info-card--promo--main-col": {
         "title": "mobile info card promo--main col",
         "props": {
-            "width": "50%",
             "blockClass": [
                 "global__info-card--promo"
             ]
