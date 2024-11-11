@@ -3,9 +3,9 @@
     border-radius   : 15px;
     border          : none;
     background-color: #1D27341A;
-    padding         : 2px 10px 2px 12px;
     display         : flex;
     align-items     : center;
+    justify-content : center;
 }
 
 .wishlistIconContainer {
@@ -21,17 +21,14 @@
 }
 
 .iconSize {
-    display      : inline-block;
-    width        : 15.5px;
-    height       : 15.5px;
-    color        : #1D2734;
-    outline-color: #1D2734;
+    display: inline-block;
+    width  : 15.5px;
+    height : 15.5px;
 }
 
 .outline {
-    outline-color: #1D2734 !important;
-    background   : url(/assets/svg/corazon.svg) !important;
-    background-repeat: no-repeat !important;
+    background         : url(/arquivos/corazon.svg) !important;
+    background-repeat  : no-repeat !important;
     background-position: center !important;
-    background-size: cover;
+    background-size    : cover;
 }
