@@ -9,7 +9,7 @@
         "children": [
             "stack-layout#global__shelf",
             "product-summary-image",
-            "product-summary-description",
+            "product-summary-name",
             "product-summary-space",
             "product-summary-price",
             //"vtex.product-highlights@2.x:product-highlights",

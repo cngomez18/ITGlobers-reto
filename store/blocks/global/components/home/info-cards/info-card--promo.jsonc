@@ -2,7 +2,6 @@
     "flex-layout.col#desktop__info-card--promo--main-col": {
         "title": "desktop info card promo--main col",
         "props": {
-            "width": "25%",
             "blockClass": [
                 "global__info-card--promo"
             ]
@@ -15,7 +14,6 @@
     "flex-layout.col#mobile__info-card--promo--main-col": {
         "title": "mobile info card promo--main col",
         "props": {
-            "width": "50%",
             "blockClass": [
                 "global__info-card--promo"
             ]

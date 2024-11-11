@@ -1,23 +1,11 @@
 {
-    "slider-layout#global__info-card--badge": {
-        "title": "slider images info-card badge home",
+    "flex-layout.row#mobile__info-cards-badge-slider": {
+        "title": " mobile col home info cards with badge",
         "props": {
-            "itemsPerPage": {
-                "desktop": 3,
-                "tablet": 2,
-                "phone": 1
-            },
-            "infinite": true,
-            "centerMode": {
-                "desktop": "to-the-left",
-                "mobile": "disabled"
-            },
-            "showNavigationArrows": "never",
-            "showPaginationDots": "never",
-            "centerModeSlidesGap": 20,
-            "fullWidth": false,
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
             "blockClass": [
-                "global__info-card"
+                "global__info-cards--slider"
             ]
         },
         "children": [
@@ -32,25 +20,13 @@
             "flex-layout.col#global__info-card--main-col"
         ]
     },
-    "slider-layout#global__info-card--no-badge": {
-        "title": "slider images info-card home no badge",
+    "flex-layout.row#mobile__info-cards-no-badge-slider": {
+        "title": " mobile col home info cards with badge",
         "props": {
-            "itemsPerPage": {
-                "desktop": 3,
-                "tablet": 2,
-                "phone": 1
-            },
-            "infinite": true,
-            "centerMode": {
-                "desktop": "to-the-left",
-                "mobile": "disabled"
-            },
-            "showNavigationArrows": "never",
-            "showPaginationDots": "never",
-            "centerModeSlidesGap": 20,
-            "fullWidth": false,
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
             "blockClass": [
-                "global__info-card"
+                "global__info-cards--slider"
             ]
         },
         "children": [
@@ -63,25 +39,13 @@
             "flex-layout.col#global__info-card--phone--main-col"
         ]
     },
-    "slider-layout#global__info-card--no-badge-white": {
-        "title": "slider images info-card home no badge white",
+    "flex-layout.row#mobile__info-cards-no-badge-white-slider": {
+        "title": " mobile col home info cards with badge",
         "props": {
-            "itemsPerPage": {
-                "desktop": 3,
-                "tablet": 2,
-                "phone": 1
-            },
-            "infinite": true,
-            "centerMode": {
-                "desktop": "to-the-left",
-                "mobile": "disabled"
-            },
-            "showNavigationArrows": "never",
-            "showPaginationDots": "never",
-            "centerModeSlidesGap": 20,
-            "fullWidth": false,
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
             "blockClass": [
-                "global__info-card"
+                "global__info-cards--slider"
             ]
         },
         "children": [
