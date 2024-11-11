@@ -2,7 +2,6 @@
     "flex-layout.col#global__info-card--flyer--main-col": {
         "title": "global info card flyer--main col",
         "props": {
-            "width": "25%",
             "blockClass": [
                 "global__info-card"
             ]

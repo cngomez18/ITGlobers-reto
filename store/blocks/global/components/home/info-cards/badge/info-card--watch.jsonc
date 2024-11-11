@@ -39,6 +39,7 @@
         "title": "global info card--badge col",
         "props": {
             "width": "15%",
+            "preserveLayoutOnMobile": true,
             "blockClass": [
                 "global__info-card--badge"
             ]

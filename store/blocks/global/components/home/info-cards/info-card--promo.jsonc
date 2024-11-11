@@ -2,7 +2,6 @@
     "flex-layout.col#desktop__info-card--promo--main-col": {
         "title": "desktop info card promo--main col",
         "props": {
-            "width": "25%",
             "blockClass": [
                 "global__info-card--promo"
             ]
