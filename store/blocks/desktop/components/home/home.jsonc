@@ -13,6 +13,8 @@
         "props": {
             "marginLeft": 10,
             "marginRight": 10,
+            "paddingLeft": 8,
+            "paddingRight": 0,
             "horizontalAlign": "left",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
@@ -25,30 +27,23 @@
         "children": [
             "rich-text#global__home--text-tienda",
             "list-context.bullet-group",
+
             "rich-text#global__home--text-product",
-            "slider-layout#global__info-card--badge",
+            "flex-layout.row#mobile__info-cards-badge-slider",
+
             "rich-text#global__home--text-product",
-            "flex-layout.row#global__info-card--slider",
+            "flex-layout.row#global__home-shelf-slider",
+
             "flex-layout.row#desktop__banner",
+
             "rich-text#global__home--text-product",
-            "flex-layout.row#global__info-card--slider",
+            "flex-layout.row#global__home-shelf-slider",
+            
             "rich-text#global__home--text-product",
-            "slider-layout#global__info-card--no-badge",
+            "flex-layout.row#mobile__info-cards-no-badge-slider",
+            
             "rich-text#global__home--text-product",
-            "slider-layout#global__info-card--no-badge-white"
-        ]
-    },
-    "flex-layout.row#global__info-card--slider": {
-        "title": " desktop col home product slider with a promo info card",
-        "props": {
-            "colGap": 3,
-            "blockClass": [
-                "global__info-card--slider-row"
-            ]
-        },
-        "children": [
-            "flex-layout.col#desktop__info-card--promo--main-col",
-            "list-context.product-list#desktop__product-shelf"
+            "flex-layout.row#mobile__info-cards-no-badge-white-slider"
         ]
     }
 }

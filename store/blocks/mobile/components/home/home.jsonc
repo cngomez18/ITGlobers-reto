@@ -25,31 +25,23 @@
         "children": [
             "rich-text#global__home--text-tienda",
             "list-context.bullet-group",
+
             "rich-text#global__home--text-product",
-            "slider-layout#global__info-card--badge",
+            "flex-layout.row#mobile__info-cards-badge-slider",
+
             "rich-text#global__home--text-product",
-            "flex-layout.row#mobile__info-card--slider",
+            "flex-layout.row#global__home-shelf-slider",
+            
             "flex-layout.row#mobile__banner",
+            
             "rich-text#global__home--text-product",
-            "flex-layout.row#mobile__info-card--slider",
+            "flex-layout.row#global__home-shelf-slider",
+            
             "rich-text#global__home--text-product",
-            "slider-layout#global__info-card--no-badge",
+            "flex-layout.row#mobile__info-cards-no-badge-slider",
+            
             "rich-text#global__home--text-product",
-            "slider-layout#global__info-card--no-badge-white"
-        ]
-    },
-    "flex-layout.row#mobile__info-card--slider": {
-        "title": " mobile col home product slider with a promo info card",
-        "props": {
-            "preserveLayoutOnMobile": true,
-            "colGap": 1,
-            "blockClass": [
-                "global__info-card--slider-row"
-            ]
-        },
-        "children": [
-            "flex-layout.col#mobile__info-card--promo--main-col",
-            "list-context.product-list#mobile__product-shelf"
+            "flex-layout.row#mobile__info-cards-no-badge-white-slider"
         ]
     }
 }

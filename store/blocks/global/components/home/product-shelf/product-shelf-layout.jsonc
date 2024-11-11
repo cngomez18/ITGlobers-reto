@@ -1,53 +1,33 @@
 {
-    "list-context.product-list#desktop__product-shelf": {
-        "title": "desktop product shelf--list context",
-        "blocks": [
-            "product-summary.shelf#global__home"
-        ],
+    "flex-layout.row#global__home-shelf-slider": {
+        "title": "Container Golbal home shelf slide 1",
         "children": [
-            "slider-layout#desktop__home--product-shelf"
-        ]
-    },
-    "slider-layout#desktop__home--product-shelf": {
-        "title": "desktop slider de product shelf home",
+            "flex-layout.col#desktop__info-card--promo--main-col",
+            "list-context.product-list#global__home-shelf--slider"
+        ],
         "props": {
-            "showNavigationArrows": "never",
-            "showPaginationDots": "never",
-            "centerMode": "to-the-left",
-            "itemsPerPage": {
-                "desktop": 4,
-                "tablet": 2,
-                "phone": 1
-            },
-            "inifinite": true,
             "blockClass": [
-                "global__home__shelf--slider"
-            ]
+                "global__home-shelf-slider"
+            ],
+            "colSizing": "auto"
         }
     },
-    "list-context.product-list#mobile__product-shelf": {
-        "title": "mobile product shelf--list context",
+    "list-context.product-list#global__home-shelf--slider": {
+        "title": "Global home shelf slider",
         "blocks": [
             "product-summary.shelf#global__home"
         ],
         "children": [
-            "slider-layout#mobile__home--product-shelf"
-        ]
-    },
-    "slider-layout#mobile__home--product-shelf": {
-        "title": "mobile slider de product shelf home",
+            "list-context-renderer#global__shelf--render"
+        ],
         "props": {
-            "showNavigationArrows": "never",
-            "showPaginationDots": "never",
-            "itemsPerPage": {
-                "desktop": 4,
-                "tablet": 2,
-                "phone": 1
-            },
-            "inifinite": true,
-            "blockClass": [
-                "global__home__shelf--slider"
-            ]
+            "blockClass": "global__home-shelf--one"
+        }
+    },
+    "list-context-renderer#global__shelf--render": {
+        "props": {
+            "listElement": "div",
+            "blockClass": "global__shelf--render"
         }
     }
 }

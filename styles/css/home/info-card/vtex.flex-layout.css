@@ -1,35 +1,97 @@
 .flexCol--global__info-card {
-    background-color: white;
-    box-shadow      : 0px 2px 8px 0px #00000014;
-    width           : 324px;
-    height          : 336px;
-    border-radius   : 12px;
+    background-color : white;
+    position         : relative;
+    scroll-snap-align: center;
+    box-shadow       : 0px 2px 8px 0px #00000014;
+    max-width        : 324px;
+    min-width        : 280px;
+    max-height       : 336px;
+    border-radius    : 12px;
+    margin           : auto 10px auto;
+    overflow         : hidden;
 }
 
 .flexCol--global__info-card--promo {
-    width           : 324px;
-    height          : 305px;
-    border-radius   : 12px;
-    background-color: white;
-    box-shadow      : 0px 2px 8px 0px #00000014;
+    background-color : white;
+    position         : relative;
+    scroll-snap-align: center;
+    max-width        : 324px;
+    min-width        : 280px;
+    max-height       : 336px;
+    border-radius    : 12px;
+    margin           : auto 10px auto;
+    overflow         : hidden;
+    box-shadow       : 0px 2px 8px 0px #00000014;
 }
 
 .flexCol--global__info-card--phone {
-    background-color: #1D2734;
-    width           : 324px;
-    height          : 336px;
-    border-radius   : 12px;
-    box-shadow      : 0px 2px 8px 0px #00000014;
+    background-color : #1D2734;
+    position         : relative;
+    scroll-snap-align: center;
+    margin           : auto 10px auto;
+    max-width        : 324px;
+    min-width        : 300px;
+    max-height       : 336px;
+    border-radius    : 12px;
+    overflow         : hidden;
+    box-shadow       : 0px 2px 8px 0px #00000014;
+}
+
+.flexColChild--global__info-card--phone {
+    display: flex;
 }
 
 .flexCol--global__info-card--ipad {
-    background-color: #1D2734;
-    width           : 324px;
-    height          : 336px;
-    border-radius   : 12px;
-    box-shadow      : 0px 2px 8px 0px #00000014;
+    background-color : #1D2734;
+    position         : relative;
+    scroll-snap-align: center;
+    margin           : auto 10px auto;
+    max-width        : 324px;
+    min-width        : 280px;
+    max-height       : 336px;
+    border-radius    : 12px;
+    box-shadow       : 0px 2px 8px 0px #00000014;
 }
 
-.flexRow--global__info-card--slider-row {
-    max-width: 1260px;
+.flexRowContent--global__info-cards--slider {
+    display              : flex;
+    flex-direction       : row;
+    height               : 350px;
+    overflow-x           : scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type     : x proximity;
+}
+
+.flexRowContent--global__info-cards--slider::-webkit-scrollbar {
+    display: none;
+}
+
+.flexCol--global__info-card--badge {
+    flex-direction: row-reverse;
+    align-self    : flex-start;
+    position      : relative;
+}
+
+@media screen and (max-width: 640px) {
+    .flexCol--global__info-card--badge {
+        top: -70px;
+    }
+}
+
+
+.flexRowContent--global__home-shelf-slider {
+    display              : flex;
+    flex-direction       : row;
+    overflow-x           : scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type     : x proximity;
+}
+
+.flexRowContent--global__home-shelf-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.flexRow--global__home-shelf-slider :global(.vtex-list-context-0-x-list) {
+    display: flex;
+    gap    : 17px;
 }
